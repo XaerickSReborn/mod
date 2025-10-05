@@ -3,47 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Postulación a Moderador — XaerickS | Mvaasquez</title>
+    <title>Postulación a Moderador — Xaericks | Mvaasquez</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <meta name="description" content="Postulación de Xaericks para moderador del canal Mvaasquez en Kick." />
+    <meta name="description" content="Postulación de Xaericks para moderador del canal Mvaasquez en YouTube." />
     
     <style>
-        /* ==================== VARIABLES Y SISTEMA DE DISEÑO ==================== */
+        /* ==================== VARIABLES Y SISTEMA DE DISEÑO CYBERPUNK 2077 ==================== */
         :root {
             /* Colores base */
-            --bg-dark: #050a0f;
-            --bg-card: #0a1118;
-            --bg-overlay: rgba(10, 17, 24, 0.92);
+            --bg-dark: #0a0a0f;
+            --bg-card: #12121a;
+            --bg-overlay: rgba(18, 18, 26, 0.92);
             
-            /* Paleta de neón */
-            --neon-green: #00ff88;
-            --neon-green-light: #33ffaa;
-            --neon-green-dark: #00cc6a;
-            --neon-green-glow: rgba(0, 255, 136, 0.4);
-            --neon-green-glow-strong: rgba(0, 255, 136, 0.6);
+            /* Paleta de neón rojo cyberpunk */
+            --neon-red: #ff0050;
+            --neon-red-light: #ff2a6d;
+            --neon-red-dark: #cc0040;
+            --neon-red-glow: rgba(255, 0, 80, 0.5);
+            --neon-red-glow-strong: rgba(255, 0, 80, 0.7);
             
-            /* Acentos */
-            --accent-cyan: #00d9ff;
-            --accent-purple: #b366ff;
-            --accent-blue: #0ea5e9;
+            /* Acentos cyberpunk */
+            --accent-magenta: #ff006e;
+            --accent-yellow: #ffbe0b;
+            --accent-cyan: #00f5ff;
             
             /* Texto */
             --text-primary: #f0f4f8;
             --text-secondary: #a0aec0;
             --text-muted: #718096;
             
-            /* Bordes y sombras */
-            --border-color: rgba(0, 255, 136, 0.15);
-            --border-glow: rgba(0, 255, 136, 0.3);
+            /* Bordes y sombras rojas */
+            --border-color: rgba(255, 0, 80, 0.2);
+            --border-glow: rgba(255, 0, 80, 0.4);
             --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
             --shadow-md: 0 8px 32px rgba(0, 0, 0, 0.5);
             --shadow-lg: 0 16px 64px rgba(0, 0, 0, 0.7);
-            --shadow-glow: 0 0 40px var(--neon-green-glow);
+            --shadow-glow: 0 0 40px var(--neon-red-glow);
             
             /* Transiciones */
             --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
@@ -85,17 +85,17 @@
             min-height: 100vh;
             overflow-x: hidden;
             position: relative;
-            /* Fondo con múltiples capas de gradientes radiales para efecto futurista */
+            /* Fondo cyberpunk con gradientes rojos */
             background: 
-                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 255, 136, 0.15), transparent 50%),
-                radial-gradient(ellipse 60% 80% at 0% 50%, rgba(0, 217, 255, 0.1), transparent 50%),
-                radial-gradient(ellipse 60% 80% at 100% 50%, rgba(179, 102, 255, 0.1), transparent 50%),
-                radial-gradient(ellipse 100% 100% at 50% 100%, rgba(0, 255, 136, 0.08), transparent 50%),
-                linear-gradient(180deg, #050a0f 0%, #0a1118 50%, #050a0f 100%);
+                radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255, 0, 80, 0.2), transparent 50%),
+                radial-gradient(ellipse 60% 80% at 0% 50%, rgba(255, 0, 110, 0.15), transparent 50%),
+                radial-gradient(ellipse 60% 80% at 100% 50%, rgba(255, 190, 11, 0.1), transparent 50%),
+                radial-gradient(ellipse 100% 100% at 50% 100%, rgba(255, 0, 80, 0.1), transparent 50%),
+                linear-gradient(180deg, #0a0a0f 0%, #12121a 50%, #0a0a0f 100%);
             background-attachment: fixed;
         }
 
-        /* ==================== GRID FUTURISTA DE FONDO ==================== */
+        /* Grid futurista cyberpunk con líneas rojas */
         body::before {
             content: '';
             position: fixed;
@@ -104,8 +104,8 @@
             width: 100%;
             height: 100%;
             background-image: 
-                linear-gradient(rgba(0, 255, 136, 0.03) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(0, 255, 136, 0.03) 1px, transparent 1px);
+                linear-gradient(rgba(255, 0, 80, 0.05) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 0, 80, 0.05) 1px, transparent 1px);
             background-size: 50px 50px;
             pointer-events: none;
             z-index: 0;
@@ -117,22 +117,22 @@
             100% { transform: translate(50px, 50px); }
         }
 
-        /* ==================== LÍNEA DE ESCANEO ANIMADA ==================== */
+        /* Línea de escaneo roja cyberpunk */
         body::after {
             content: '';
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
-            height: 2px;
+            height: 3px;
             background: linear-gradient(90deg, 
                 transparent, 
-                var(--neon-green-glow-strong), 
-                var(--neon-green), 
-                var(--neon-green-glow-strong), 
+                var(--neon-red-glow-strong), 
+                var(--neon-red), 
+                var(--neon-red-glow-strong), 
                 transparent
             );
-            box-shadow: 0 0 20px var(--neon-green), 0 0 40px var(--neon-green-glow);
+            box-shadow: 0 0 30px var(--neon-red), 0 0 60px var(--neon-red-glow);
             animation: scanLine 4s ease-in-out infinite;
             pointer-events: none;
             z-index: 9999;
@@ -155,7 +155,32 @@
             }
         }
 
-        /* ==================== PARTÍCULAS FLOTANTES ==================== */
+        /* Efecto de scanlines cyberpunk */
+        .scanlines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 1;
+            background: repeating-linear-gradient(
+                0deg,
+                rgba(0, 0, 0, 0.15),
+                rgba(0, 0, 0, 0.15) 1px,
+                transparent 1px,
+                transparent 2px
+            );
+            animation: scanlineMove 8s linear infinite;
+            opacity: 0.3;
+        }
+
+        @keyframes scanlineMove {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(100%); }
+        }
+
+        /* Partículas flotantes con colores cyberpunk */
         .floating-shapes {
             position: fixed;
             top: 0;
@@ -170,9 +195,8 @@
         .shape {
             position: absolute;
             border-radius: 50%;
-            /* Blur más intenso y múltiples sombras para efecto de glow */
             filter: blur(80px);
-            opacity: 0.2;
+            opacity: 0.25;
             animation: float 25s infinite ease-in-out;
             mix-blend-mode: screen;
         }
@@ -180,7 +204,7 @@
         .shape-1 {
             width: 500px;
             height: 500px;
-            background: radial-gradient(circle, var(--neon-green) 0%, transparent 70%);
+            background: radial-gradient(circle, var(--neon-red) 0%, transparent 70%);
             top: 10%;
             left: 5%;
             animation-delay: 0s;
@@ -189,7 +213,7 @@
         .shape-2 {
             width: 400px;
             height: 400px;
-            background: radial-gradient(circle, var(--accent-cyan) 0%, transparent 70%);
+            background: radial-gradient(circle, var(--accent-magenta) 0%, transparent 70%);
             bottom: 15%;
             right: 10%;
             animation-delay: 8s;
@@ -198,7 +222,7 @@
         .shape-3 {
             width: 350px;
             height: 350px;
-            background: radial-gradient(circle, var(--accent-purple) 0%, transparent 70%);
+            background: radial-gradient(circle, var(--accent-yellow) 0%, transparent 70%);
             top: 50%;
             right: 20%;
             animation-delay: 16s;
@@ -228,24 +252,22 @@
             z-index: 1;
         }
 
-        /* ==================== TARJETA PRINCIPAL CON GLASSMORPHISM AVANZADO ==================== */
+        /* Tarjeta con glassmorphism cyberpunk rojo */
         .card {
-            /* Glassmorphism de nivel empresarial con múltiples capas */
             background: 
-                linear-gradient(135deg, rgba(0, 255, 136, 0.05) 0%, transparent 50%),
-                linear-gradient(225deg, rgba(0, 217, 255, 0.03) 0%, transparent 50%),
+                linear-gradient(135deg, rgba(255, 0, 80, 0.08) 0%, transparent 50%),
+                linear-gradient(225deg, rgba(255, 0, 110, 0.05) 0%, transparent 50%),
                 var(--bg-overlay);
             backdrop-filter: blur(20px) saturate(180%);
             -webkit-backdrop-filter: blur(20px) saturate(180%);
             border: 1px solid var(--border-color);
             border-radius: var(--radius-xl);
             padding: var(--spacing-2xl) 56px;
-            /* Sombras múltiples para profundidad y glow */
             box-shadow: 
-                0 0 0 1px rgba(0, 255, 136, 0.1) inset,
+                0 0 0 1px rgba(255, 0, 80, 0.15) inset,
                 0 8px 32px rgba(0, 0, 0, 0.6),
                 0 16px 64px rgba(0, 0, 0, 0.4),
-                0 0 80px rgba(0, 255, 136, 0.1);
+                0 0 80px rgba(255, 0, 80, 0.15);
             position: relative;
             overflow: hidden;
             opacity: 0;
@@ -260,7 +282,7 @@
             }
         }
 
-        /* Borde animado superior con gradiente que se mueve */
+        /* Borde animado cyberpunk con gradiente rojo */
         .card::before {
             content: '';
             position: absolute;
@@ -271,8 +293,8 @@
             background: linear-gradient(90deg, 
                 transparent 0%, 
                 var(--accent-cyan) 25%,
-                var(--neon-green) 50%, 
-                var(--accent-purple) 75%,
+                var(--neon-red) 50%, 
+                var(--accent-yellow) 75%,
                 transparent 100%
             );
             animation: borderSlide 4s linear infinite;
@@ -284,7 +306,7 @@
             100% { left: 100%; }
         }
 
-        /* Efecto de resplandor en las esquinas */
+        /* Efecto de resplandor rojo en las esquinas */
         .card::after {
             content: '';
             position: absolute;
@@ -292,7 +314,7 @@
             right: -50%;
             width: 200%;
             height: 200%;
-            background: radial-gradient(circle, rgba(0, 255, 136, 0.1) 0%, transparent 50%);
+            background: radial-gradient(circle, rgba(255, 0, 80, 0.15) 0%, transparent 50%);
             animation: cornerGlow 8s ease-in-out infinite;
             pointer-events: none;
         }
@@ -308,7 +330,7 @@
             }
         }
 
-        /* ==================== TIPOGRAFÍA PREMIUM ==================== */
+        /* Tipografía con gradiente rojo cyberpunk */
         h1 {
             margin: 0 0 var(--spacing-md);
             font-weight: 700;
@@ -317,19 +339,40 @@
             line-height: 1.1;
             position: relative;
             z-index: 1;
-            /* Gradiente animado en el texto */
             background: linear-gradient(
                 135deg, 
                 var(--text-primary) 0%,
-                var(--neon-green-light) 50%,
-                var(--accent-cyan) 100%
+                var(--neon-red-light) 50%,
+                var(--accent-magenta) 100%
             );
             background-size: 200% 200%;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            animation: gradientShift 6s ease infinite, fadeIn 1s ease 0.3s backwards;
-            text-shadow: 0 0 40px rgba(0, 255, 136, 0.3);
+            animation: gradientShift 6s ease infinite, fadeIn 1s ease 0.3s backwards, glitchText 8s infinite;
+            text-shadow: 0 0 40px rgba(255, 0, 80, 0.4);
+        }
+
+        /* Efecto glitch cyberpunk en el título */
+        @keyframes glitchText {
+            0%, 90%, 100% {
+                text-shadow: 0 0 40px rgba(255, 0, 80, 0.4);
+            }
+            91% {
+                text-shadow: 
+                    -2px 0 rgba(255, 0, 80, 0.8),
+                    2px 0 rgba(0, 245, 255, 0.8),
+                    0 0 40px rgba(255, 0, 80, 0.4);
+            }
+            92% {
+                text-shadow: 0 0 40px rgba(255, 0, 80, 0.4);
+            }
+            93% {
+                text-shadow: 
+                    2px 0 rgba(255, 0, 80, 0.8),
+                    -2px 0 rgba(255, 190, 11, 0.8),
+                    0 0 40px rgba(255, 0, 80, 0.4);
+            }
         }
 
         @keyframes gradientShift {
@@ -359,11 +402,11 @@
             animation: fadeIn 1s ease 0.5s backwards;
         }
 
+        /* Strong con color rojo neón */
         .subtitle strong {
-            color: var(--neon-green);
+            color: var(--neon-red);
             font-weight: 600;
-            /* Efecto de glow en texto importante */
-            text-shadow: 0 0 20px var(--neon-green-glow);
+            text-shadow: 0 0 20px var(--neon-red-glow);
             position: relative;
         }
 
@@ -377,7 +420,7 @@
             animation: fadeIn 1s ease 0.6s backwards;
         }
 
-        /* ==================== LISTA DE MOTIVOS CON EFECTOS PREMIUM ==================== */
+        /* Lista con efectos cyberpunk rojos */
         ul {
             margin: var(--spacing-xl) 0;
             padding: 0;
@@ -389,12 +432,11 @@
         li {
             margin: 0 0 var(--spacing-md);
             padding: var(--spacing-lg) var(--spacing-xl);
-            /* Fondo con glassmorphism y borde con glow */
             background: 
-                linear-gradient(135deg, rgba(0, 255, 136, 0.08) 0%, rgba(0, 255, 136, 0.02) 100%),
-                rgba(10, 17, 24, 0.6);
+                linear-gradient(135deg, rgba(255, 0, 80, 0.1) 0%, rgba(255, 0, 80, 0.03) 100%),
+                rgba(18, 18, 26, 0.6);
             backdrop-filter: blur(10px);
-            border-left: 4px solid var(--neon-green);
+            border-left: 4px solid var(--neon-red);
             border-radius: var(--radius-md);
             color: var(--text-primary);
             font-weight: 400;
@@ -405,13 +447,11 @@
             animation: slideInLeft 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
             position: relative;
             overflow: hidden;
-            /* Sombra con glow sutil */
             box-shadow: 
                 0 4px 16px rgba(0, 0, 0, 0.3),
-                0 0 0 1px rgba(0, 255, 136, 0.1) inset;
+                0 0 0 1px rgba(255, 0, 80, 0.15) inset;
         }
 
-        /* Animación escalonada mejorada */
         li:nth-child(1) { animation-delay: 0.7s; }
         li:nth-child(2) { animation-delay: 0.8s; }
         li:nth-child(3) { animation-delay: 0.9s; }
@@ -430,7 +470,7 @@
             }
         }
 
-        /* Efecto de brillo que se mueve por el elemento */
+        /* Efecto de brillo rojo */
         li::before {
             content: '';
             position: absolute;
@@ -440,13 +480,13 @@
             height: 100%;
             background: linear-gradient(90deg, 
                 transparent, 
-                rgba(0, 255, 136, 0.1), 
+                rgba(255, 0, 80, 0.15), 
                 transparent
             );
             transition: left 0.6s ease;
         }
 
-        /* Indicador de check con animación */
+        /* Check con fondo rojo */
         li::after {
             content: '✓';
             position: absolute;
@@ -455,8 +495,8 @@
             transform: translateY(-50%) scale(0);
             width: 28px;
             height: 28px;
-            background: linear-gradient(135deg, var(--neon-green), var(--neon-green-light));
-            color: var(--bg-dark);
+            background: linear-gradient(135deg, var(--neon-red), var(--neon-red-light));
+            color: white;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -465,21 +505,21 @@
             font-size: 14px;
             transition: var(--transition-bounce);
             box-shadow: 
-                0 0 20px var(--neon-green-glow),
+                0 0 20px var(--neon-red-glow),
                 0 4px 12px rgba(0, 0, 0, 0.4);
         }
 
+        /* Hover con glow rojo */
         li:hover {
-            /* Hover con transformación 3D y glow intenso */
             background: 
-                linear-gradient(135deg, rgba(0, 255, 136, 0.15) 0%, rgba(0, 255, 136, 0.05) 100%),
-                rgba(10, 17, 24, 0.8);
+                linear-gradient(135deg, rgba(255, 0, 80, 0.2) 0%, rgba(255, 0, 80, 0.08) 100%),
+                rgba(18, 18, 26, 0.8);
             transform: translateX(12px) scale(1.02);
             border-left-width: 6px;
             box-shadow: 
                 0 8px 32px rgba(0, 0, 0, 0.4),
-                0 0 40px var(--neon-green-glow),
-                0 0 0 1px var(--neon-green-glow) inset;
+                0 0 40px var(--neon-red-glow),
+                0 0 0 1px var(--neon-red-glow) inset;
         }
 
         li:hover::before {
@@ -502,11 +542,10 @@
             position: relative;
             z-index: 1;
             animation: fadeIn 1s ease 1.8s backwards;
-            /* Sombra de texto sutil */
             text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
         }
 
-        /* ==================== BOTONES DE REDES SOCIALES PREMIUM ==================== */
+        /* ==================== BOTONES DE REDES SOCIALES CYBERPUNK ==================== */
         .socials {
             display: flex;
             flex-wrap: wrap;
@@ -523,11 +562,10 @@
             gap: 12px;
             padding: 16px 32px;
             border-radius: var(--radius-md);
-            /* Borde con gradiente y fondo glassmorphism */
             border: 2px solid var(--border-color);
             background: 
                 linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%),
-                rgba(10, 17, 24, 0.8);
+                rgba(18, 18, 26, 0.8);
             backdrop-filter: blur(10px);
             color: var(--text-primary);
             text-decoration: none;
@@ -540,7 +578,6 @@
             opacity: 0;
             transform: translateY(30px) scale(0.9);
             animation: buttonEntrance 0.8s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
-            /* Sombra inicial más pronunciada */
             box-shadow: 
                 0 4px 16px rgba(0, 0, 0, 0.4),
                 0 0 0 1px rgba(255, 255, 255, 0.05) inset;
@@ -549,6 +586,7 @@
         .button:nth-child(1) { animation-delay: 1.9s; }
         .button:nth-child(2) { animation-delay: 2s; }
         .button:nth-child(3) { animation-delay: 2.1s; }
+        .button:nth-child(4) { animation-delay: 2.2s; }
 
         @keyframes buttonEntrance {
             to {
@@ -557,7 +595,6 @@
             }
         }
 
-        /* Efecto de brillo que se mueve */
         .button::before {
             content: '';
             position: absolute;
@@ -571,7 +608,6 @@
             transition: width 0.8s ease, height 0.8s ease;
         }
 
-        /* Segundo efecto de resplandor */
         .button::after {
             content: '';
             position: absolute;
@@ -600,7 +636,6 @@
         .button:hover {
             transform: translateY(-6px) scale(1.05);
             border-color: currentColor;
-            /* Sombra más intensa en hover */
             box-shadow: 
                 0 12px 40px rgba(0, 0, 0, 0.5),
                 0 0 60px currentColor;
@@ -610,50 +645,50 @@
             transform: translateY(-2px) scale(1.02);
         }
 
-        /* Estilos específicos mejorados por plataforma */
         .brand-twitch {
             border-color: rgba(168, 85, 247, 0.4);
             color: var(--accent-purple);
         }
 
         .brand-twitch:hover {
-            background: linear-gradient(135deg, var(--accent-purple), #9333ea);
+            background: linear-gradient(135deg, #a855f7, #9333ea);
             color: white;
-            border-color: var(--accent-purple);
+            border-color: #a855f7;
             box-shadow: 
                 0 12px 40px rgba(168, 85, 247, 0.5),
                 0 0 60px rgba(168, 85, 247, 0.6),
                 0 0 0 1px rgba(168, 85, 247, 0.3) inset;
         }
 
-        .brand-kick {
-            border-color: rgba(0, 255, 136, 0.4);
-            color: var(--neon-green);
+        /* Botón de YouTube con estilo rojo */
+        .brand-youtube {
+            border-color: rgba(255, 0, 80, 0.4);
+            color: var(--neon-red);
         }
 
-        .brand-kick:hover {
-            background: linear-gradient(135deg, var(--neon-green), var(--neon-green-dark));
-            color: var(--bg-dark);
-            border-color: var(--neon-green);
+        .brand-youtube:hover {
+            background: linear-gradient(135deg, var(--neon-red), var(--neon-red-dark));
+            color: white;
+            border-color: var(--neon-red);
             box-shadow: 
-                0 12px 40px var(--neon-green-glow-strong),
-                0 0 60px var(--neon-green-glow-strong),
-                0 0 0 1px var(--neon-green-glow) inset;
+                0 12px 40px var(--neon-red-glow-strong),
+                0 0 60px var(--neon-red-glow-strong),
+                0 0 0 1px var(--neon-red-glow) inset;
         }
 
         .brand-x {
-            border-color: rgba(14, 165, 233, 0.4);
+            border-color: rgba(0, 245, 255, 0.4);
             color: var(--accent-cyan);
         }
 
         .brand-x:hover {
-            background: linear-gradient(135deg, var(--accent-cyan), #0284c7);
+            background: linear-gradient(135deg, var(--accent-cyan), #0891b2);
             color: white;
             border-color: var(--accent-cyan);
             box-shadow: 
-                0 12px 40px rgba(14, 165, 233, 0.5),
-                0 0 60px rgba(14, 165, 233, 0.6),
-                0 0 0 1px rgba(14, 165, 233, 0.3) inset;
+                0 12px 40px rgba(0, 245, 255, 0.5),
+                0 0 60px rgba(0, 245, 255, 0.6),
+                0 0 0 1px rgba(0, 245, 255, 0.3) inset;
         }
 
         .button-icon {
@@ -731,12 +766,13 @@
             }
             
             body::before,
-            body::after {
+            body::after,
+            .scanlines {
                 animation: none !important;
             }
         }
 
-        /* ==================== MODO CLARO (OPCIONAL) ==================== */
+        /* Modo claro con tema rojo */
         @media (prefers-color-scheme: light) {
             :root {
                 --bg-dark: #f8fafc;
@@ -745,30 +781,30 @@
                 --text-primary: #0f172a;
                 --text-secondary: #475569;
                 --text-muted: #64748b;
-                --border-color: rgba(0, 255, 136, 0.2);
-                --neon-green-glow: rgba(0, 255, 136, 0.2);
+                --border-color: rgba(255, 0, 80, 0.25);
+                --neon-red-glow: rgba(255, 0, 80, 0.25);
             }
 
             body {
                 background: 
-                    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(0, 255, 136, 0.08), transparent 50%),
-                    radial-gradient(ellipse 60% 80% at 0% 50%, rgba(0, 217, 255, 0.05), transparent 50%),
-                    radial-gradient(ellipse 60% 80% at 100% 50%, rgba(179, 102, 255, 0.05), transparent 50%),
+                    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255, 0, 80, 0.1), transparent 50%),
+                    radial-gradient(ellipse 60% 80% at 0% 50%, rgba(255, 0, 110, 0.08), transparent 50%),
+                    radial-gradient(ellipse 60% 80% at 100% 50%, rgba(255, 190, 11, 0.05), transparent 50%),
                     linear-gradient(180deg, #f8fafc 0%, #ffffff 50%, #f8fafc 100%);
             }
 
             body::before {
                 background-image: 
-                    linear-gradient(rgba(0, 255, 136, 0.05) 1px, transparent 1px),
-                    linear-gradient(90deg, rgba(0, 255, 136, 0.05) 1px, transparent 1px);
+                    linear-gradient(rgba(255, 0, 80, 0.08) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 0, 80, 0.08) 1px, transparent 1px);
             }
 
             .card {
                 background: 
-                    linear-gradient(135deg, rgba(0, 255, 136, 0.03) 0%, transparent 50%),
+                    linear-gradient(135deg, rgba(255, 0, 80, 0.05) 0%, transparent 50%),
                     var(--bg-card);
                 box-shadow: 
-                    0 0 0 1px rgba(0, 255, 136, 0.15) inset,
+                    0 0 0 1px rgba(255, 0, 80, 0.2) inset,
                     0 8px 32px rgba(0, 0, 0, 0.08),
                     0 16px 64px rgba(0, 0, 0, 0.04);
             }
@@ -781,7 +817,7 @@
 
             li {
                 background: 
-                    linear-gradient(135deg, rgba(0, 255, 136, 0.05) 0%, rgba(0, 255, 136, 0.01) 100%),
+                    linear-gradient(135deg, rgba(255, 0, 80, 0.08) 0%, rgba(255, 0, 80, 0.02) 100%),
                     rgba(255, 255, 255, 0.8);
             }
 
@@ -806,6 +842,9 @@
     </style>
 </head>
 <body>
+    <!-- Scanlines cyberpunk -->
+    <div class="scanlines"></div>
+
     <!-- ==================== FORMAS FLOTANTES DE FONDO ==================== -->
     <div class="floating-shapes">
         <div class="shape shape-1"></div>
@@ -817,14 +856,16 @@
     <main class="container">
         <article class="card" aria-labelledby="title">
             <h1 id="title">Hola, soy XaerickS</h1>
-            <p class="subtitle">Creador del canal de Kick <strong>Mvaasquez</strong>.</p>
+            <!-- Cambio de Kick a YouTube -->
+            <p class="subtitle">Creador del canal de YouTube <strong>Mvaasquez</strong>.</p>
 
             <p>Me gustaría postularme para ser moderador de este canal porque creo que puedo aportar bastante a la comunidad.</p>
 
             <p>Aquí te dejo 10 motivos por los que considero que sería un buen mod:</p>
             
             <ul>
-                <li>Tengo experiencia moderando chats activos en Kick y Twitch.</li>
+                <!-- Actualización de experiencia de Kick/Twitch a YouTube -->
+                <li>Tengo experiencia moderando chats activos en YouTube y Twitch.</li>
                 <li>Mantengo siempre una actitud respetuosa, imparcial y profesional.</li>
                 <li>Conozco bien las reglas de la comunidad y de la plataforma.</li>
                 <li>Sé identificar conductas tóxicas o spam rápidamente.</li>
@@ -836,19 +877,20 @@
                 <li>Quiero ayudar a que este canal crezca y mantenga una comunidad sana y leal.</li>
             </ul>
 
-            <p>Si me das la oportunidad, prometo mantener el chat limpio, positivo y lleno de buena vibra.</p>
+            <p>Si me das la oportunidad, prometo mantener el chat limpio, positivo y lleno de buena vibra.❤️</p>
             
-            <footer>— Xaericks | Mvaasquez</footer>
-            <footer>— Mis redes: </footer>
+            <footer>— XaerickS | Mvaasquez</footer>
+            <footer>— Mis Redes: </footer>
 
             <div class="socials" aria-label="Redes sociales">
                 <a class="button brand-twitch" href="https://twitch.tv/xaericks" target="_blank" rel="noopener noreferrer">
                     <span class="button-icon">📺</span>
                     <span>Twitch</span>
                 </a>
-                <a class="button brand-kick" href="https://kick.com/xaericks" target="_blank" rel="noopener noreferrer">
-                    <span class="button-icon">🎮</span>
-                    <span>Kick</span>
+                <!-- Botón de YouTube agregado -->
+                <a class="button brand-youtube" href="https://www.youtube.com/@XaerickS" target="_blank" rel="noopener noreferrer">
+                    <span class="button-icon">▶️</span>
+                    <span>YouTube</span>
                 </a>
                 <a class="button brand-x" href="https://x.com/xaericks" target="_blank" rel="noopener noreferrer">
                     <span class="button-icon">🐦</span>
